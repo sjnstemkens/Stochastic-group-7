@@ -13,3 +13,17 @@ PhysioNet has separate eyes-open and eyes-closed baseline recordings for the sam
 Estimate the power spectrum at one electrode and compare band power across eyes-open and eyes-closed windows.
 
 You can also explore the data in a different way or pursue another analysis. It is up to you.
+
+## Lecture description
+Analyze a real-world dataset using as many course tools as possible
+stochastic characterization, correlation & spectral analysis, linear filtering & ARMA
+models, estimation, optimal & Kalman filtering
+
+[explanation slide](image.png)
+
+## 5 categories, 3 points each (max 15)
+1 Correctness of methods and their use
+2 Understanding of the methods
+3 Breadth of course tools used & design abilities
+4 Clarity of poster and presentation
+5 Participation & punctuality in answering questions
