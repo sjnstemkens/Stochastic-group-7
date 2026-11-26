@@ -1,0 +1,45 @@
+# Create in WSL: conda env create -f environment.yaml
+# Activate:      conda activate eeg
+# Python is pinned; conda resolves compatible versions of the libraries.
+name: eeg
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.12.14
+  - pip
+
+  # Notebooks and VSCodium kernel support
+  - ipykernel
+  - jupyterlab
+  - ipywidgets
+
+  # Numerical computing and machine learning
+  - numpy
+  - scipy
+  - scikit-learn  # Import in Python as sklearn
+  - pandas
+
+  # EEG processing, artifact handling, connectivity, and BIDS datasets
+  - mne
+  - autoreject
+  - mne-connectivity
+  - mne-bids
+
+  # Visualization, statistical modelling, and wavelet transforms
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - pywavelets  # Import in Python as pywt
+
+  # EEG/MATLAB/HDF5 file support
+  - h5py
+  - h5io
+  - pymatreader
+  - edfio
+  - pybv
+
+  # Progress indicators for longer analyses
+  - tqdm
